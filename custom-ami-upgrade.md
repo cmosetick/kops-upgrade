@@ -10,6 +10,10 @@ For more info see:
 - https://github.com/kubernetes/kops/issues/37
 - https://github.com/kubernetes/kops/issues/1718
 
+
+### Make sure the aws-cli profile you are managing the cluster with is active
+and set to `[default]`.
+
 ### Set your kubectl context to the cluster you want to manage
 
 e.g.  
@@ -68,3 +72,6 @@ e.g. 1.7.2 to 1.8
 https://github.com/kubernetes/kubernetes/releases
 
 e.g. `kubernetesVersion: 1.8.0`
+
+### Reference:
+- https://github.com/kubernetes/kops/blob/master/docs/instance_groups.md
